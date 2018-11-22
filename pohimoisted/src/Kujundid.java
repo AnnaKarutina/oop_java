@@ -4,16 +4,18 @@ public class Kujundid {
 //        Kujund ruut = new Kujund("Ruut");
 //        Kujund kolmnurk = new Kujund("Kolmnurk");
 
-        ring.valjastaKirjeldus();
+//        ring.valjastaKirjeldus();
 
 /*      Need read ei tööta, kuna nimetus on privaatne omadus
         ring.nimetus = "Ruut";
         ring.valjastaKirjeldus();*/
 
-        ring.setNimetus("Ruut");
-        ring.valjastaKirjeldus();
+//        ring.setNimetus("Ruut");
+//        ring.valjastaKirjeldus();
 
 //        ruut.valjastaKirjeldus();
 //        kolmnurk.valjastaKirjeldus();
+        Riistkulik riistkulik = new Riistkulik("Riistkülik");
+        riistkulik.valjastaKirjeldus();
     }
 }
