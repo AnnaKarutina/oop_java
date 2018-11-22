@@ -15,7 +15,7 @@ public class Kujundid {
 
 //        ruut.valjastaKirjeldus();
 //        kolmnurk.valjastaKirjeldus();
-        Riistkulik riistkulik = new Riistkulik("Riistkülik");
+        Riistkulik riistkulik = new Riistkulik("Riistkülik", 10.0, 5.0);
         riistkulik.valjastaKirjeldus();
     }
 }
