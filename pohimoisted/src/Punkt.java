@@ -8,6 +8,7 @@ public class Punkt {
         this.nimetus = nimetus;
         this.x = x;
         this.y = y;
+        this.setVeerand();
     }
 
     public void setVeerand() {
