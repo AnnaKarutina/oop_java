@@ -15,6 +15,13 @@ public class Riistkulik extends Kujund {
     }
 
     @Override
+    public void arvutaPindala() {
+        System.out.println("Riistülik klassi arvutaPindala() meetod");
+        this.setPindala(this.pikkus * this.laius);
+        System.out.println("Pindala = " + this.getPindala());
+    }
+
+    @Override
     public void valjastaKirjeldus() {
         System.out.println("Riistküliku klassi valjastaKirjeldus()");
         System.out.println(this.getNimetus());
