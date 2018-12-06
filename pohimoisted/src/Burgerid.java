@@ -6,6 +6,12 @@ public class Burgerid {
         hamburger.valiLisand3("muna",0.5);
         Double hamburgerihind = hamburger.koostaBurger();
         System.out.println("Lõpphind = " + hamburgerihind);
-
+        System.out.println("======================================");
+        TervislikBurger kalaburger = new TervislikBurger("kala", 4.0);
+        kalaburger.valiTervislikLisand1("salat", 0.5);
+        kalaburger.valiTervislikLisand2("kaste", 0.2);
+        kalaburger.valiLisand1("oliivid", 0.3);
+        Double kalaburgeriHind = kalaburger.koostaBurger();
+        System.out.println("Lõpphind = " + kalaburgeriHind);
     }
 }
